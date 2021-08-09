@@ -1,0 +1,14 @@
+{
+  "name": "favorit/favorit",
+  "require": {
+    "grpc/grpc": "*",
+    "google/protobuf": "*"
+  },
+  "autoload": {
+    "psr-4": {
+    },
+    "classmap": [
+      "api/"
+    ]
+  }
+}

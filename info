@@ -1,0 +1,31 @@
+https://grpc.io/docs/languages/php/quickstart/
+https://github.com/grpc/grpc/tree/master/src/php
+https://github.com/protocolbuffers/protobuf/tree/master/php
+https://developers.google.com/protocol-buffers/docs/reference/php-generated
+https://docs.servicestack.net/grpc-php
+https://cloud.google.com/php/grpc?hl=ru#linux
+
+https://developpaper.com/using-protobuffer-in-php/
+https://russianblogs.com/article/5166713821/
+
+
+https://hub.docker.com/_/php
+https://skondratev.com/docker-lamp/
+https://tretyakov.net/post/lokalnaya-sreda-dlya-php-razrabotki-s-pomoshhyu-docker/
+https://habr.com/ru/post/519500/
+https://tsh.io/blog/grpc-php/
+https://habr.com/ru/post/515216/
+
+https://github.com/antondzhukov/phpfest-php
+
+protoc --php_out=./api --grpc_out=./api --plugin=protoc-gen-grpc=./grpc_php_plugin ./passwordservice.proto
+
+
+
+
+docker build -t smirnov/grpc:v1 .
+docker exec -it b0fa89bbda9e bash
+
+
+
+./proto/bin/protoc --php_out=./api --grpc_out=./api --plugin=protoc-gen-grpc=./grpc_php_plugin ./service.proto
